@@ -1,0 +1,26 @@
+.navbar{
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.right-box{
+  width: 922px;
+  display: flex;
+  justify-content: space-between;
+}
+.right-box-item{
+  padding: 20px;
+}
+.right-text-item{
+  text-decoration: none;
+  color: rgb(44, 50, 59);
+  font-size: 16px;
+  font-weight: 800;
+}
+.left-text-item{
+  text-decoration: none;
+  color: rgb(44, 50, 59);
+  font-size: 14px;
+  font-weight: 600;
+}
