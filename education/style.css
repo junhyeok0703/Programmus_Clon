@@ -62,3 +62,21 @@
     left: 300px; /* 이동시킬 가로 위치를 조절합니다. */
       /* 이동시킬 세로 위치를 조절합니다. */
   }
+
+  .top_image_container {
+    position: relative;
+    left: 1000px; /* 가로 위치 이동 값 */
+    
+  }
+
+  .bg-color_th{
+    background-color: #F7D1C8;
+  }
+
+  .bg-color_se{
+    background-color: #432F94;
+  }
+
+  .bg-color_fi{
+    background-color: #0E1F5F;
+  }
