@@ -1,0 +1,27 @@
+.box {
+    /* border: solid 1px red; */
+}
+
+.question { 
+  height: 30px;
+  border: solid 0.5px ;
+
+  
+  border-color: inherit;
+}
+
+.login-wrapper-postion {
+  text-align: center;
+  padding: 2rem 0px;
+}
+ 
+
+
+@media screen and (max-width:48rem) {
+  .right-box {
+      display: none;
+  }
+  .left-box {
+    columns:100%;
+  }
+}
