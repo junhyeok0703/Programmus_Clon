@@ -1,29 +1,38 @@
-.navbar-a{
-text-decoration: none;
-color: black;
-padding: 15px;
+.header-background-color{
+  background-color: white;
 }
-.navbar-a-space{
-width: 250px;
-font-size: 14px;
-font-weight: 500;
-display: flex;
-justify-content: flex-start;
+.navbar-setting{
+  padding: 0px;
 }
-.header-setting{
-background-color: white;
+.header-logo-size{
+  width: 147px;
+  height: 20px;
 }
-.navbar-dropdown{
-display: flex;
-justify-content: flex-end;
-width: 750px;
+.header-left{
+  display: flex;
 }
-.navbar-dropdown-item{
-padding: 20px;
+.header-right{
+  display: flex;
 }
-.navbar-padding{
-padding: 0px;
+.header-space{
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
 }
+.header-left-font{
+  padding: 20px;
+  margin: 0 30px;
+  font-size: 16px;
+  font-weight: 900;  
+}
+.header-rirght-font{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+/* ----------------header part-------------------------- */
+
+/*----------------carousel part---------------------- */
 .carousel-text-color{
 color: black;
 }
@@ -34,6 +43,9 @@ height: 16.25rem;
 .crausel-text-style{
 font-weight: 600;
 }
+/* ---------------carousel part--------------------- */
+
+/* ---------------main part------------------- */
 .recruit-text{
 font-size: 1.3750rem;
 font-weight: 700;
@@ -52,7 +64,7 @@ border-radius: 20px;
 }
 .box-setting{
 display: flex;
-border: 1px solid rgb(215, 226, 235);
+border: 3px solid rgb(215, 226, 235);
 background-color: white;
 border-radius: 1rem;
 width: 350px;
@@ -98,6 +110,46 @@ margin-left: 10px;
 .box-margin{
 margin: 15px;
 }
+.second-main-img{
+  width: 160px;
+  height: 160px;
+}
+.second-main-img-box{
+  border-radius: 20px;
+}
+.second-main{
+  display: flex;
+  justify-content: space-around;
+}
+.second-main-headline{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.span-tag-margin{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.h6-tag-font{
+  font-family: Inter, "Noto Sans KR", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+}
+.second-main-background1{
+  background-color: rgb(255, 243, 224);
+}
+.second-main-background2{
+  background-color: rgb(224, 242, 241);
+}
+.second-main-background3{
+  background-color: rgb(251, 233, 231);
+}
+.second-main-background4{
+  background-color: rgb(232, 245, 233);
+}
+/* ---------------main part------------------- */
+
+/* ----------------footer part--------------- */
 .container {
   max-width: 1170px;
   /* width: 100%; */
@@ -166,3 +218,4 @@ margin: 15px;
 .last-sub-item {
   padding-left: 10px;
 }
+/* ----------------footer part--------------- */
