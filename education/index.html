@@ -22,33 +22,81 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">progrmmers</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-setting">
+      <div class="container-fluid header-background-color">
+            <!-- 로고 이미지 부분 -->
+            <div>
+                <a class="navbar-brand" href="#">
+                  <img src="https://vepimg.b8cdn.com/uploads/vjfnew/8560/content/files/1666941370logo-png1666941370.png" class="header-logo-size">
+                </a>
+            </div>
+            <!-- 로고 이미지 부분 -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">교육</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">채용</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">코딩테스트aaa</a>
-            </li>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">  
+                  
+                  <div class="header-space">
+                  <div class="header-left">
+                      <li class="nav-item dropdown">
+                          <a class="nav-link header-left-font" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          교육
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">교육홈</a></li>
+                              <li><a class="dropdown-item" href="#">국비지원</a></li>
+                              <li><a class="dropdown-item" href="#">강사신청</a></li>
+                              <li><a class="dropdown-item" href="#">강의</a></li>
+                              <li><a class="dropdown-item" href="#">MY스쿨</a></li>
+                              <li><a class="dropdown-item" href="#">캠퍼스</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link header-left-font" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          채용
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">채용홈</a></li>
+                              <li><a class="dropdown-item" href="#">채용 프로그램</a></li>
+                              <li><a class="dropdown-item" href="#">탑프로그래머스</a></li>
+                              <li><a class="dropdown-item" href="#">채용 공고</a></li>
+                              <li><a class="dropdown-item" href="#">이력서</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link header-left-font" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          코딩테스트
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">코딩테스트 문제</a></li>
+                              <li><a class="dropdown-item" href="#">스킬체크</a></li>
+                              <li><a class="dropdown-item" href="#">코딩역량인증시험</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link header-left-font" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          커뮤니티
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">개발자라운지</a></li>
+                              <li><a class="dropdown-item" href="#">스터디</a></li>
+                              <li><a class="dropdown-item" href="#">Q&A</a></li>
+                          </ul>
+                      </li>
+                </div>   
+
+                <div class="header-right"> 
+                  <li class="nav-item header-rirght-font">
+                      <a class="nav-link" href="#">로그인</a>
+                  </li>
+                  <li class="nav-item header-rirght-font">
+                      <a class="nav-link" href="#">기업서비스</a>
+                  </li>
+                </div>
+              </div>
+
           </ul>
-          <span class="navbar-text"> 로그인 </span>
         </div>
       </div>
     </nav>
