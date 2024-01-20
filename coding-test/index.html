@@ -8,43 +8,119 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
-</head> 
+</head>
 
 <body>
-    <div class="box container col-12">
-    <div id="carouselExample" class="carousel slide" >
-        <div class="carousel-inner ">
-            <div class="carousel-item active" style="background-color: rgb(181, 217, 232); height: 100%;">
-                <img src="assert/코딩테스트-캐러셀-1.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" style="background-color: skyblue; height: 100%;">
-                <img src="assert/코딩테스트-캐러셀-2.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" style="background-color: bisque; height: 100%;">
-                <img src="assert/코딩테스트-캐러셀-3.png" class="d-block w-100" alt="...">
-            </div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <div class="carousel-inner">
+            <div class="carousel-item active bg-color_se" style="background-color: #0e1f5f;" data-bs-interval="10000">
+                <div class="container d-flex justify-content-center align-items-center text-white">
+                    <div>
+                        <div class="h5">assert/코딩테스트-캐러셀-1.png</div>
+                        <div>
+                            Some representative placeholder content for the first slide.
+                        </div>
+                    </div>
+                    <div class="" style="">
+                        <img src="assert/코딩테스트-캐러셀-1.png"
+                            class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item  bg-color_th" style="background-color: #f7d1c8;" data-bs-interval="2000">
+                <div class="container d-flex justify-content-center align-items-center ">
+                    <div>
+                        <div class="h5">assert/코딩테스트-캐러셀-2.png</div>
+                        <div>
+                            Some representative placeholder content for the second slide.
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="assert/코딩테스트-캐러셀-2.png"
+                            class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item  bg-color_th" style="background-color: #00237e;" data-bs-interval="2000">
+                <div class="container d-flex justify-content-center align-items-center ">
+                    <div>
+                        <div class="h5">assert/코딩테스트-캐러셀-3.png</div>
+                        <div>
+                            Some representative placeholder content for the second slide.
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="assert/코딩테스트-캐러셀-3.png"
+                            class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item  bg-color_th" style="background-color: #4fc3f7;" data-bs-interval="2000">
+                <div class="container d-flex justify-content-center align-items-center ">
+                    <div>
+                        <div class="h5">assert/코딩테스트-캐러셀-4.png</div>
+                        <div>
+                            Some representative placeholder content for the second slide.
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="assert/코딩테스트-캐러셀-4.png"
+                            class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item  bg-color_th" style="background-color: #007aff;" data-bs-interval="2000">
+                <div class="container d-flex justify-content-center align-items-center ">
+                    <div>
+                        <div class="h5">assert/코딩테스트-캐러셀-5.png</div>
+                        <div>
+                            Some representative placeholder content for the second slide.
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="assert/코딩테스트-캐러셀-5.png"
+                            class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    </div>
+
     <div class="container pl-5">
         <main class="box container d-flex justify-content-center">
             <div class="box col-md-7 col-12 px-3">
 
                 <div class="box">
-                    <nav class="navbar bg-body-tertiary">
-                        <div class="container-fluid">
-                            <form class="row d-flex col box" role="search">
+                    <nav class="navbar bg-white" style="">
+                        <div class="container-fluid ">
+                            <form class="row d-flex col box bg-white pt-3" role="search">
                                 <div class="col-md-10">
-                                    <input class="form-control me-2" type="search" placeholder="Search"
-                                        aria-label="Search">
+                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                                 </div>
                                 <div class="col">
                                     <button class="btn btn-outline-success" type="submit">Search</button>
@@ -52,6 +128,7 @@
                             </form>
                         </div>
                     </nav>
+                    
                     <div class="d-flex mt-2 mb-2">
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
@@ -101,7 +178,7 @@
                 </div>
                 <div class="box mt-2 mb-2">
                     <div class="d-flex justify-content-between">
-                        <div class="mt-2">문제 많을거라 예상</div>
+                        <div class="mt-2"> 백준 문제들</div>
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                                 aria-expanded="false" style="background-color: white; color: #000; border: none;">
@@ -126,204 +203,261 @@
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.1</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1000" style="text-decoration-line: none; color: #000;">A + B</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">276683 명</div>
+                        <div class="col-2">39.437%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.2</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1001" style="text-decoration-line: none; color: #000;">A - B</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">236652 명</div>
+                        <div class="col-2">69.768%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.3</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1002" style="text-decoration-line: none; color: #000;">터렛</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">35718 명</div>
+                        <div class="col-2">22.471%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.3</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1003" style="text-decoration-line: none; color: #000;">피보나치 함수</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">50512 명</div>
+                        <div class="col-2">45.968%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.4</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1004" style="text-decoration-line: none; color: #000;">어린왕자</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">14895 명</div>
+                        <div class="col-2">32.953%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.5</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1005" style="text-decoration-line: none; color: #000;">ACM Craft</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">13213 명</div>
+                        <div class="col-2">28.280%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.6</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1006" style="text-decoration-line: none; color: #000;">습격자 초라기</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">2043 명</div>
+                        <div class="col-2">19.938%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.7</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1007" style="text-decoration-line: none; color: #000;">벡터 매칭</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">3231 명</div>
+                        <div class="col-2">37.478%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.8</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1008" style="text-decoration-line: none; color: #000;">A / B</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">192461 명</div>
+                        <div class="col-2">34.566%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.9</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1009" style="text-decoration-line: none; color: #000;">분산처리</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">19937 명</div>
+                        <div class="col-2">24.312%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.10</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1010" style="text-decoration-line: none; color: #000;">다리 놓기</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">35353 명</div>
+                        <div class="col-2">47.976%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.11</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1011" style="text-decoration-line: none; color: #000;">Fly me to the Alpha Centauri</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">22669 명</div>
+                        <div class="col-2">31.518%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.12</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1012" style="text-decoration-line: none; color: #000;">유기농 배추</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">47082 명</div>
+                        <div class="col-2">38.104%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.13</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1013" style="text-decoration-line: none; color: #000;">Contact</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">Contact 명</div>
+                        <div class="col-2">36.880%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.14</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1014" style="text-decoration-line: none; color: #000;">컨닝</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">2020 명</div>
+                        <div class="col-2">47.053%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.15</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1015" style="text-decoration-line: none; color: #000;">열 정렬</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">6330 명</div>
+                        <div class="col-2">54.744%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.16</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1016" style="text-decoration-line: none; color: #000;">제곱 ㄴㄴ 수</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">8276 명</div>
+                        <div class="col-2">21.694%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.17</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1017" style="text-decoration-line: none; color: #000;">소수 쌍</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">2113 명</div>
+                        <div class="col-2">26.353%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.18</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1018" style="text-decoration-line: none; color: #000;">체스판 다시 칠하기</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">	44988 명</div>
+                        <div class="col-2">49.791%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.19</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1019" style="text-decoration-line: none; color: #000;">책 페이지</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">4225 명</div>
+                        <div class="col-2">42.170%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.20</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1020" style="text-decoration-line: none; color: #000;">디지털 카운터</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">505 명</div>
+                        <div class="col-2">28.956%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.21</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1021" style="text-decoration-line: none; color: #000;">회전하는 큐</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">20835 명</div>
+                        <div class="col-2">61.206%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.22</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1022" style="text-decoration-line: none; color: #000;">소용돌이 예쁘게 출력하기</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">3079 명</div>
+                        <div class="col-2">29.723%</div>
                     </div>
 
                     <div class="row question pt-2 box" style="font-size: smaller;">
-                        <div class="col-md-1 col-2"> </div>
-                        <div class="col"><a href="#" style="text-decoration-line: none; color: #000;">문제 1</a></div>
-                        <div class="col-2">뭘까요?</div>
-                        <div class="col-2">50000명</div>
-                        <div class="col-2">92%</div>
+                        <div class="col-md-1 col-2">No.23</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1023" style="text-decoration-line: none; color: #000;">괄호 문자열</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">651 명</div>
+                        <div class="col-2">35.151%</div>
                     </div>
+
+                    <div class="row question pt-2 box" style="font-size: smaller;">
+                        <div class="col-md-1 col-2">No.24</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1024" style="text-decoration-line: none; color: #000;">수열의 합</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">5351 명</div>
+                        <div class="col-2">28.868%</div>
+                    </div>
+
+                    <div class="row question pt-2 box" style="font-size: smaller;">
+                        <div class="col-md-1 col-2">No.25</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1025" style="text-decoration-line: none; color: #000;">제곱수 찾기</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">1960 명</div>
+                        <div class="col-2">34.069%</div>
+                    </div>
+
+                    <div class="row question pt-2 box" style="font-size: smaller;">
+                        <div class="col-md-1 col-2">No.26</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1026" style="text-decoration-line: none; color: #000;">보물</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">33201 명</div>
+                        <div class="col-2">68.748%</div>
+                    </div>
+
+                    <div class="row question pt-2 box" style="font-size: smaller;">
+                        <div class="col-md-1 col-2">No.27</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1027" style="text-decoration-line: none; color: #000;">고층 건물</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">3493 명</div>
+                        <div class="col-2">45.828%</div>
+                    </div>
+
+                    <div class="row question pt-2 box" style="font-size: smaller;">
+                        <div class="col-md-1 col-2"> No.28</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1028" style="text-decoration-line: none; color: #000;">다이아몬드 광산</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">1588 명</div>
+                        <div class="col-2">25.271%</div>
+                    </div>
+
+                    <div class="row question pt-2 box" style="font-size: smaller;">
+                        <div class="col-md-1 col-2">No.29</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1029" style="text-decoration-line: none; color: #000;">그림 교환</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">1209 명</div>
+                        <div class="col-2">28.228%</div>
+                    </div>
+
+                    <div class="row question pt-2 box" style="font-size: smaller;">
+                        <div class="col-md-1 col-2">No.30</div>
+                        <div class="col"><a href="https://www.acmicpc.net/problem/1030" style="text-decoration-line: none; color: #000;">프렉탈 평면</a></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">940 명</div>
+                        <div class="col-2">45.214%</div>
+                    </div>
+
 
                 </div>
             </div>
             <div class="box col-3 mt-4 right-box">
                 <div class="box">
                     <div class="login-wrapper-postion">
-                        <div class="login-position">로그인하고 코딩테스트를 연습을 시작하세요.</div>
-                        <button class="login-position box"><a href="#">로그인</a></button>
+                        <div class="login-position p-2">로그인하고 코딩테스트를 연습을 시작하세요.</div>
+                        <button class="btn btn-primary login-position box"><a href="#" class="text-decoration-none text-white">로그인</a></button>
                     </div>
                 </div>
                 <div class="box mt-4">
@@ -331,7 +465,7 @@
                         <div class="first-m">
                             <div class="f-t">
                                 <div>
-                                    <span>내 실력 향상을 위한 추천 코스</span>
+                                    <span>내 실력 향상을 위한 추천 유튜브 영상</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         class="">
                                         <path fill-rule="evenodd" d="m9 16.34 4.58-4.59L9 7.16l1.41-1.41 6 6-6 6z"
@@ -340,43 +474,55 @@
                                     </svg>
                                 </div>
                             </div>
-                        </div>
+                        </div>                        
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-5">
-                                    <img src="https://grepp-programmers.s3.amazonaws.com/production/file_resource/2765/Dev_Thumnail_Data_Engineering.png"
+                                    <img src="https://i.ytimg.com/vi/0RQymLPFNXs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCgEhHVbpPJtN6m00cusX2keT-URQ"
                                         class="img-fluid rounded-start" alt="...">
                                 </div>
-                                <div class="col-md-7">
-                                    <p class="card-text text-break" style="font-size: small;">This is a wider card with
-                                        supporting text below as a natural lead-in to additional content.</p>
+                                <div class="col-md-7 d-flex align-items-center">
+                                    <p class="card-text text-break" style="font-size: small;">(2024 최신 후기) 코딩 학원의 실태와 취업률의 실태를 알려드립니다.</p>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-5">
-                                    <img src="https://grepp-programmers.s3.amazonaws.com/production/file_resource/2765/Dev_Thumnail_Data_Engineering.png"
+                                    <img src="https://i.ytimg.com/vi/4v52lmRgvK4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABhL22UanMPh0Ga5o-qF1uw-epGw"
                                         class="img-fluid rounded-start" alt="...">
                                 </div>
-                                <div class="col-md-7">
-                                    <p class="card-text text-break" style="font-size: small;">This is a wider card with
-                                        supporting text below as a natural lead-in to additional content.</p>
+                                <div class="col-md-7 d-flex align-items-center">
+                                    <p class="card-text text-break" style="font-size: small;">그룹프로젝트 하고싶은 사람 모여라! | 코딩 스터디그룹 모집</p>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-5">
-                                    <img src="https://grepp-programmers.s3.amazonaws.com/production/file_resource/2765/Dev_Thumnail_Data_Engineering.png"
+                                    <img src="https://i.ytimg.com/vi/wrXmqtOtisU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJ1Fvd-KfKI8d-HS-rEl1h7KGuCw"
                                         class="img-fluid rounded-start" alt="...">
                                 </div>
-                                <div class="col-md-7">
-                                    <p class="card-text text-break" style="font-size: small;">This is a wider card with
-                                        supporting text below as a natural lead-in to additional content.</p>
+                                <div class="col-md-7 d-flex align-items-center">
+                                    <p class="card-text text-break" style="font-size: small;">이래도 나이 때문에 포기하시나요? | 41살 전직 목사의 개발자 성공 비결</p>
                                 </div>
                             </div>
                         </div>
+                        
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="https://i.ytimg.com/vi/Mqh13dNI8jc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDooIo9fa2ZAG1Xaw4UDQbj-QO5NQ"
+                                        class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-7 d-flex align-items-center">
+                                    <p class="card-text text-break" style="font-size: small;">웹개발자면서 이것도 모름? | DOM과 CSSOM, 렌더링 과정</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </section>
                 </div>
                 <div class="box mt-4">
@@ -384,7 +530,7 @@
                         <div class="first-m">
                             <div class="f-t">
                                 <div>
-                                    <span>추천 포지션</span>
+                                    <span>채팅앱 만들기 위한 추천 영상</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         class="">
                                         <path fill-rule="evenodd" d="m9 16.34 4.58-4.59L9 7.16l1.41-1.41 6 6-6 6z"
@@ -393,45 +539,47 @@
                                     </svg>
                                 </div>
                             </div>
-                            <div class="card pt-3 pb-3 mb-3" style="max-width: 540px;">
-                                <div class="row g-0">
-                                    <div class="col-md-3">
-                                        <img src="https://grepp-programmers.s3.amazonaws.com/production/file_resource/2765/Dev_Thumnail_Data_Engineering.png"
-                                            class="img-fluid rounded-start" alt="...">
-                                    </div>
-                                    <div class="col-md-9">
-                                        <div class="card-text text-break" style="font-size: medium;">어딘가의 공고 제목</div>
-                                        <div class="card-text text-break" style="font-size: small;">어딘가의 회사</div>
-                                        <div class="card-text text-break" style="font-size: small;">어딘가의 회사</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card pt-3 pb-3 mb-3" style="max-width: 540px;">
-                                <div class="row g-0">
-                                    <div class="col-md-3">
-                                        <img src="https://grepp-programmers.s3.amazonaws.com/production/file_resource/2765/Dev_Thumnail_Data_Engineering.png"
-                                            class="img-fluid rounded-start" alt="...">
-                                    </div>
-                                    <div class="col-md-9">
-                                        <div class="card-text text-break" style="font-size: medium;">어딘가의 공고 제목</div>
-                                        <div class="card-text text-break" style="font-size: small;">어딘가의 회사</div>
-                                        <div class="card-text text-break" style="font-size: small;">어딘가의 회사</div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="card pt-3 mb-3" style="max-width: 540px;">
                                 <div class="row g-0">
-                                    <div class="col-md-3">
-                                        <img src="https://grepp-programmers.s3.amazonaws.com/production/file_resource/2765/Dev_Thumnail_Data_Engineering.png"
+                                    <div class="col-md-4">
+                                        <img src="https://i.ytimg.com/vi/pRGOEtGjI-k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBOdvkiqxxOnjZ_Jy1lWuuTNtWYg"
                                             class="img-fluid rounded-start" alt="...">
                                     </div>
-                                    <div class="col-md-9">
-                                        <div class="card-text text-break" style="font-size: medium;">어딘가의 공고 제목</div>
-                                        <div class="card-text text-break" style="font-size: small;">어딘가의 회사</div>
-                                        <div class="card-text text-break" style="font-size: small;">어딘가의 회사</div>
+                                    <div class="col-md-8">
+                                        <div class="card-text text-break" style="font-size: medium;">채팅앱 만들기 1</div>
+                                        <div class="card-text text-break" style="font-size: small;">웹소켓이란 뭘까?</div>
+                                        <div class="card-text text-break" style="font-size: small;">풀스택으로 만들어보자</div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="card pt-3 pb-3 mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="https://i.ytimg.com/vi/oFiw5VvgRFg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADfxYBLDD430q8aBvvGRF1HtuXyA"
+                                            class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-text text-break" style="font-size: medium;">채팅앱 만들기 2</div>
+                                        <div class="card-text text-break" style="font-size: small;">웹소켓을 이용해 채팅앱을 만들어보자!</div>
+                                        <div class="card-text text-break" style="font-size: small;">유저 로그인편</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card pt-3 pb-3 mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="https://i.ytimg.com/vi/pRGOEtGjI-k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBOdvkiqxxOnjZ_Jy1lWuuTNtWYg"
+                                            class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-text text-break" style="font-size: medium;">채팅앱 만들기 3</div>
+                                        <div class="card-text text-break" style="font-size: small;">어떻게 메세지를 주고받을까?</div>
+                                        <div class="card-text text-break" style="font-size: small;">웹소켓을 이용해 채팅앱을 만들어보자!</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
                     </section>
                 </div>
             </div>
@@ -444,4 +592,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+
 </html>

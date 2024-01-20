@@ -4,10 +4,7 @@
 
 .question { 
   height: 30px;
-  border: solid 0.5px ;
-
-  
-  border-color: inherit;
+  border: solid 0.5px lightgray;
 }
 
 .login-wrapper-postion {
