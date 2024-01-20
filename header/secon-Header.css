@@ -1,0 +1,32 @@
+.header-background-color{
+    background-color: white;
+}
+.navbar-setting{
+    padding: 0px;
+}
+.logo-size{
+    width: 147px;
+    height: 20px;
+}
+.header-left{
+    display: flex;
+}
+.header-right{
+    display: flex;
+}
+.header-space{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.header-left-font{
+    padding: 20px;
+    margin: 0 30px;
+    font-size: 16px;
+    font-weight: 900;  
+}
+.header-rirght-font{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
